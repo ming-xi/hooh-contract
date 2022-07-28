@@ -1,0 +1,28 @@
+{
+  "name": "hooh-connector",
+  "version": "1.0.0",
+  "description": "connector for hooh contract",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=3100 REACT_APP_ENV=dev node -r dotenv/config app.js",
+    "dev": "REACT_APP_ENV=dev nodemon app.js --config ./nodemon.json",
+    "test": "mocha -r dotenv/config --timeout 60000"
+  },
+  "author": "hooh.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "axios": "^0.21.1",
+    "bs58": "^4.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.3.1",
+    "near-api-js": "^0.44.2",
+    "near-seed-phrase": "^0.1.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
