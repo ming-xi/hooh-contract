@@ -1,9 +1,3 @@
-# Readme for NEAR
-
-参考：[GitHub - Narwallets/meta-pool: NEAR protocol Meta Staking Pool, tokenized stake, liquid unstake, stNEAR, $META](https://github.com/Narwallets/meta-pool#readme)
-
-## For Contract
-
 ### Overview
 
 What is HOOH？
